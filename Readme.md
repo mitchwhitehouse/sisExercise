@@ -19,7 +19,9 @@ Build Fat Jar
 gradle jar (creates an fat jar with all dependencies in build/libs)
 
 Run from sis directory
-java -jar ./build/libs/sis.jar server sis.yaml
+'java -jar ./build/libs/sis.jar server sis.yaml'
+
+Note: The default port the jetty server starts on is 8080. This can be configured by changing the value in the sis.yaml file to another free port. 
 
 Example URLS
 ------------
